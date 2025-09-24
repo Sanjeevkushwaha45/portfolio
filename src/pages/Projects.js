@@ -5,9 +5,9 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "VillagePe Pro",
       description: "A full-stack e-commerce solution with React frontend and Node.js backend, featuring payment integration and admin dashboard.",
-      image: "🛒",
+      image: "🏛",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       github: "#",
       live: "#"
@@ -49,14 +49,14 @@ const Projects = () => {
       live: "#"
     },
     {
-      id: 6,
-      title: "Recipe Finder App",
-      description: "A mobile-first recipe application with search functionality, ingredient tracking, and meal planning features.",
-      image: "🍳",
-      technologies: ["React Native", "Firebase", "API Integration", "Redux"],
+      id: 1,
+      title: "E-Commerce Platform",
+      description: "A full-stack e-commerce solution with React frontend and Node.js backend, featuring payment integration and admin dashboard.",
+      image: "🛒",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       github: "#",
       live: "#"
-    }
+    },
   ];
 
   return (
