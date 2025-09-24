@@ -6,6 +6,7 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "react-scripts start",
+    "prebuild": "chmod +x node_modules/.bin/* || true",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
